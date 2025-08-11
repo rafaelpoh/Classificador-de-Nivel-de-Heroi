@@ -16,9 +16,9 @@ while (nomeDoHeroi != "fim") {
 heroi.forEach(function(heroi) {
   if (heroi.xp < 1000) {
     console.log(`O heroi de nome ${heroi.nome} é um heroi de nível Ferro.`);
-  } else if (heroi.xp >= 1000 && heroi.xp < 2000) {
+  } else if (heroi.xp >= 1001 && heroi.xp <= 2000) {
     console.log(`O heroi de nome ${heroi.nome} é um heroi de nível Bronze.`);
-  } else if (heroi.xp >= 2000 && heroi.xp < 5000) {
+  } else if (heroi.xp >= 2001 && heroi.xp <= 5000) {
     console.log(`O heroi de nome ${heroi.nome} é um heroi de nível Prata.`);
   } else if (heroi.xp >= 5000 && heroi.xp < 7000) {
     console.log(`O heroi de nome ${heroi.nome} é um heroi de nível Ouro.`);
